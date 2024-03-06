@@ -71,5 +71,5 @@ function fibonacciUntilLimit() {
   }
   
   // Example usage:
-  let inputNumber = 225; // You can change this to any number you want to check
+  let inputNumber = 225; // You can change this to any number you want to check...
   console.log(fibonacciIsNumberPartOf(inputNumber));
