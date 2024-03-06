@@ -1,0 +1,28 @@
+/* Target all buttons */
+button {
+    /* Increase button size */
+    padding: 15px 30px; /* Adjust padding for desired size */
+    font-size: 18px; /* Increase font size for text */
+    
+    /* Larger border */
+    border: 3px solid #ccc; /* Adjust border color as needed */
+    border-radius: 5px; /* Add rounded corners */
+    
+    /* Distinct color scheme */
+    background-color: lavender; /* Adjust background color */
+    color: #333; /* Adjust text color */
+    
+    /* Optional: Add hover effect */
+    transition: all 0.2s ease-in-out; /* Smooth transition on hover */
+    
+    /* Optional: Add focus styling (improves accessibility) */
+    outline: none; /* Remove default outline */
+    &:focus {
+      box-shadow: 0 0 0 3px rgba(0, 102, 255, 0.3); /* Add subtle focus ring */
+    }
+  }
+  
+  /* Target buttons with icons (assuming a class of "icon-button") */
+  .icon-button {
+    font-family: 'Lobster', cursive; /* Use Lobster font for icons */
+  }
